@@ -1,0 +1,17 @@
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.price {
+  padding: 0.5rem;
+  border-radius: 4px;
+  background: rgb(79, 151, 218);
+  color: rgb(9, 75, 105);
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}

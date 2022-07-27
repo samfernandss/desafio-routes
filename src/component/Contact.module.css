@@ -1,0 +1,23 @@
+img {
+  text-align: center;
+}
+
+.data {
+ padding: 0px;
+ list-style: none;
+}
+
+.data li {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: .8rem;
+}
+
+.data li::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background: #ddd;
+  margin-right: 10px;
+}
